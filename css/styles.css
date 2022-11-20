@@ -220,7 +220,6 @@ header .container {
   display: flex;
 }
 .container > .projects-button {
-  border: 0;
 }
 .project .projects-button,
 .projects-button active-btn {
@@ -248,15 +247,24 @@ header .container {
 }
 .projects-list > .container {
   width: 1170px;
+  padding: 0;
 }
 .projects-items-btn {
   display: flex;
   align-items: center;
   width: 575px;
+  margin-top: 94px;
+  margin-bottom: 34px;
 }
 .projects-items {
   display: flex;
+  flex-wrap: wrap;
+  row-gap: 30px;
 }
+.projects-items:not(:last-child) {
+  column-gap: 30px;
+}
+
 .project {
   box-sizing: border-box;
   background: #ffffff;
