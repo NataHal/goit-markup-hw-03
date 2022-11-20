@@ -219,7 +219,10 @@ header .container {
   color: var(--second-color);
   display: flex;
 }
-.projects-button,
+.container > .projects-button {
+  border: 0;
+}
+.project .projects-button,
 .projects-button active-btn {
   height: 38px;
   top: 174px;
@@ -243,9 +246,13 @@ header .container {
   background: #2196f3;
   color: #ffffff;
 }
+.projects-list > .container {
+  width: 1170px;
+}
 .projects-items-btn {
   display: flex;
   align-items: center;
+  width: 575px;
 }
 .projects-items {
   display: flex;
