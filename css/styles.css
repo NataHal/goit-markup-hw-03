@@ -62,6 +62,8 @@ header .container {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+  padding-top: 0;
+  padding-bottom: 21px;
 }
 .header-logo {
   font-family: "Raleway";
@@ -93,9 +95,9 @@ header .container {
 .header-tel {
   color: var(--second-color);
 }
-.main > .container {
+.main {
   background-color: #2f303a;
-  padding: 200px 252px;
+  padding: 200px;
 }
 .main-title {
   font-weight: 900;
@@ -125,10 +127,13 @@ header .container {
   color: #ffffff;
   margin-left: 232px;
 }
+.features {
+  padding-top: 73px;
+  padding-bottom: 94px;
+  background: #ffffff;
+}
 .container > .features-list {
   width: 1170px;
-  margin-top: 73px;
-  margin-bottom: 94px;
 }
 .features-list {
   display: flex;
@@ -152,10 +157,14 @@ header .container {
   letter-spacing: 0.03em;
   color: var(--second-color);
 }
+.what-we-do {
+  background-color: #ffffff;
+  padding-bottom: 94px;
+}
 .what-we-do > .container {
   width: 1170px;
-  padding: 0;
 }
+
 .what-we-do-title {
   font-size: 36px;
   line-height: 1.17;
@@ -166,7 +175,6 @@ header .container {
 }
 .what-we-do-list {
   display: flex;
-  margin-bottom: 94px;
 }
 .what-we-do-item:not(:last-child) {
   margin-right: 30px;
@@ -175,10 +183,12 @@ header .container {
   left: 215px;
   top: 1058px;
 }
+.team {
+  background-color: #f5f4fa;
+  padding: 94px 0;
+}
 .team > .container {
   width: 1200px;
-  padding: 94px 15px;
-  background: #f5f4fa;
 }
 .team-title {
   font-size: 36px;
@@ -246,10 +256,12 @@ header .container {
   background: #2196f3;
   color: #ffffff;
 }
+.projects-list {
+  padding-top: 73px;
+  padding-bottom: 94px;
+}
 .projects-list > .container {
   width: 1170px;
-  margin-bottom: 94px;
-  padding: 0;
 }
 .projects-items-btn {
   display: flex;
@@ -265,17 +277,19 @@ header .container {
 .projects-items {
   display: flex;
   flex-wrap: wrap;
-  row-gap: 30px;
+  gap: 30px;
 }
-
+.projects-items:nth-child(3n + 1) {
+  gap: 0;
+}
 .project {
   box-sizing: border-box;
   background: #ffffff;
-  border: 1px solid #eeeeee;
-  margin-bottom: 20px;
-  padding-bottom: 20px;
 }
-
+.project-info {
+  padding: 20px 24px;
+  border: 1px solid #eeeeee;
+}
 .project-title {
   font-size: 18px;
   line-height: 2;
@@ -290,10 +304,8 @@ header .container {
   color: var(--second-color);
 }
 .footer {
-}
-.container.footer-container {
   background-color: #2f303a;
-  padding: 60px 15px;
+  padding: 60px;
 }
 .footer-logo {
   font-family: "Raleway";
