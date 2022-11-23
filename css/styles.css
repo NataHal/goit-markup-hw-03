@@ -98,27 +98,28 @@ header .container {
 .main {
   background-color: #2f303a;
   padding: 200px;
-  margin-right: auto;
-  margin-left: auto;
-}
-.main-title-title {
-  max-width: 696px;
-  margin-bottom: 30px;
 }
 .main-title {
+  max-width: 696px;
+  margin-left: 152px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.main-title-title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
+
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
+
   margin-bottom: 30px;
 }
 .main-btn {
   width: 217px;
   height: 50px;
-  margin-left: 232px;
+  margin-left: 392px;
   margin-right: auto;
 }
 .main-btn-btn {
