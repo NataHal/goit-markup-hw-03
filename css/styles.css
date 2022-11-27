@@ -51,11 +51,6 @@ header .container {
 .header-container > a:not(:last-child) {
   margin-right: 50px;
 }
-.header-border {
-  border-bottom-width: 1px;
-  border-bottom-style: solid;
-  border-bottom-color: #ececec;
-}
 
 .header {
   background: var(--main-bg-color);
@@ -64,6 +59,10 @@ header .container {
   line-height: 1.14;
   padding-top: 0;
   padding-bottom: 21px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #ececec;
+  margin-bottom: 21px;
 }
 .header-logo {
   font-family: "Raleway";
@@ -97,7 +96,7 @@ header .container {
 }
 .main {
   background-color: #2f303a;
-  padding: 200px;
+  padding: 200px 0;
 }
 
 .main-title {
@@ -113,7 +112,7 @@ header .container {
 .main-btn {
   width: 217px;
   height: 50px;
-  margin-left: 492px;
+  margin-left: auto;
   margin-right: auto;
 }
 .main-btn-btn {
@@ -133,7 +132,7 @@ header .container {
   color: #ffffff;
 }
 .features {
-  padding-top: 73px;
+  padding-top: 94px;
   padding-bottom: 94px;
   background: #ffffff;
 }
@@ -155,6 +154,7 @@ header .container {
   line-height: 1.14;
   letter-spacing: 0.03em;
   color: var(--main-color);
+  margin-bottom: 10px;
 }
 .featueres-item {
   font-size: 14px;
@@ -165,9 +165,6 @@ header .container {
 .what-we-do {
   background-color: #ffffff;
   padding-bottom: 94px;
-}
-.what-we-do > .container {
-  width: 1170px;
 }
 
 .what-we-do-title {
@@ -235,10 +232,8 @@ header .container {
   color: var(--second-color);
   display: flex;
 }
-.projects-items-btn {
-}
+
 .projects-group-btn {
-  display: flex;
   align-items: center;
   max-width: 575px;
   margin-right: auto;
@@ -247,6 +242,11 @@ header .container {
 .projects-group-btn > li:not(:last-child) {
   margin-right: 8px;
 }
+.projects-items-btn {
+  display: flex;
+  justify-content: center;
+}
+
 .projects-button {
   height: 38px;
   border: none;
@@ -301,8 +301,6 @@ header .container {
   flex-wrap: wrap;
   gap: 30px;
 }
-.projects-items:nth-child(3n + 1) {
-}
 .project {
   background: var(--main-bg-color);
 }
@@ -325,17 +323,20 @@ header .container {
 }
 .footer {
   background-color: #2f303a;
-  padding: 60px;
+  padding: 60px 0;
 }
 .footer-logo {
+  margin-bottom: 20px;
+}
+.footer-logo-web {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   color: #ffffff;
-  margin-bottom: 20px;
 }
+
 .footer-address {
   font-style: normal;
   font-weight: 400;
