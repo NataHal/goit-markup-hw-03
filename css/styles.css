@@ -341,9 +341,10 @@ header .container {
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
-.footer-list:not(:last-child) {
+.footer-list > li {
   margin-bottom: 9px;
 }
+
 .footer-address-link {
   color: #ffffff;
 }
